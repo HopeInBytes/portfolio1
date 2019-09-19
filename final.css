@@ -1,0 +1,234 @@
+/****** body*******/
+@media only screen and (max-width:600px)
+{ 
+body {
+    font-family: 'Lora', sans-serif;
+    color: #2b2b2b;
+    margin: 0;
+}
+}
+@media only screen and (min-width: 600px)
+{
+  body {
+    font-family: 'Lora', sans-serif;
+    color: #2b2b2b;
+    margin: 0;
+}  
+}
+@media only screen and (min-width: 768px)
+{
+    body {
+    font-family: 'Lora', sans-serif;
+    color: #2b2b2b;
+    margin: 0;
+}
+}
+@media only screen and (min-width: 992px)
+{
+    body {
+    font-family: 'Lora', sans-serif;
+    color: #2b2b2b;
+    margin: 0;
+}
+}
+@media only screen and (min-width: 1200px)
+{
+    body {
+    font-family: 'Lora', sans-serif;
+    color: #2b2b2b;
+    margin: 0;
+}
+} 
+
+#about, #work, #contact {
+    height: 600px;
+}
+/*** header****/
+header {
+    height: 700px;
+    background: url('best.jpg');
+    background-size: cover;
+}
+.full
+{
+	width: 1200px;
+    margin: 0 auto;
+}
+.half {
+    width: 600px;
+    float: left;
+}
+.work_width{
+ width: 400px;
+    float: left;
+}
+header h1{
+	color:#fff;
+	font-size: 30px;
+	padding: 65px 0 65px 25px;
+	font-family: 'Lora' sans-serif;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+a:hover{
+	color:#fff;
+
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #fff;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2a2b2a;
+}
+
+
+/********about********/
+#about .full {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    word-spacing: 6pt;
+
+}
+
+/*******work *********/
+#work {
+    background-color: #f5ceb7;
+    text-align: center;
+}
+
+#work .full {
+    padding: 115px 0;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    text-align: justify;
+}
+/***********contact**************/
+#contact{
+	background-image: url('contact-us.jpg');
+	background-size:cover;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    
+}
+#a {
+    text-decoration: none;
+
+    
+    font-size: 28px;
+}
+#contact h3{
+	color: #000;
+    
+}
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+ 
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.box{
+    width:320px;
+    height: 380px;
+    background:rgba(0, 0,0,0.5);
+    color: #fff;  
+    transform: translate(50%,50%);
+    box-sizing: border-box;
+    align-content: center;
+}
+.container {
+  border-radius: 5px;
+ background:rgba(0, 0,0,0.5);
+  color: #fff;
+  padding: 20px 25px 20px 50px;
+      height: auto;
+    width: 350px;
+}
+#msg
+{
+    height: 100px;
+    width: 250px;
+}
+.social{
+        padding: 75px 35px 35px 10px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+
+}
+#mail{
+    color: #c9a47f;
+    font-family: 'Lora' sans-serif;
+    font-size: 20px;
+}
+
+.upper {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
